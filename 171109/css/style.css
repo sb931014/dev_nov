@@ -1,0 +1,13 @@
+body{
+    background:url(../img/city.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    background-size:cover;
+    font-family:"Vollkor SC", serif;
+}
+.rowHeight{
+    height:500px;
+}
+.awep{
+
+
+}
