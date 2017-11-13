@@ -1,7 +1,11 @@
 var name='john';
 var age=26;
-var isMarred='yes';
+var isMarried='yes';
+var isMarried2='yes';
 
-if(true){
+if(isMarried == isMarried2){
 	console.log("John is married");
+}
+if(isMarried === isMarried2){
+	console.log("Jane is married");
 }
