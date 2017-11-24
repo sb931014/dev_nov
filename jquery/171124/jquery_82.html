@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz82</title>
+    <style>
+        div{
+            width:20px;
+            height:20px;
+            border: 1px solid black;
+        }
+        .select{
+            background: pink;
+        }
+
+        .box{
+            border: 2px solid red;
+        }
+
+    </style>
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script>
+    var x=[1,4,9];
+    $(document).ready(function() {
+        for(var i=0; i<3; i++){
+            $('div').eq(x[i]).addClass('select').addClass('box');
+        }
+     });
+    </script>
+</head>
+<body>
+    <div></div>
+    <div class="select"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="box"></div>
+</body>
+</html>
