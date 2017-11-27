@@ -1,0 +1,116 @@
+/*===============================================
+	Default Value:
+	Font Family : Robo Condensed
+	Grenish Blue : #34c6d3(button, icon, link);
+	Steel Gray : #41464b(Headings);
+	Blue Bayoux : #64707b(Paragraphs)
+	White : #fff (text, background);
+	Black : #000
+*/
+html, body{
+	height:100%;
+}
+body{
+	font-family:'Roboto Condensed', sans-serif;
+}
+/*===============================================*/
+#home{
+	height:100%;
+}
+
+#home-cover{
+	height:100%;
+	background-image:url("../img/img/bg-home.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+#home-content-box{
+	width:100%;
+	height:100%;
+	display:table;
+}
+#home-content-box-inner{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+
+}
+#home-heading h3{
+	color:white;
+	font-size:55px;
+	font-weight:700;
+	margin:20px 0 20px 0;
+	text-transform:uppercase;
+}
+
+/*버튼=================================*/
+.btn-general{
+	border-color:#fff;
+	border-width:2px;
+	border-radius:0;
+	font-weight:400;
+	text-transform:uppercase;
+	padding:12px 26px 12px 26px;
+}
+.btn-white{
+	border-color:#fff;
+	color:#fff;
+}
+.btn-white:hover, .btn-white:focus{
+	background-color:#fff;
+	color:#41464b; 
+}
+/*?*/
+.bg-parallax{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+/*애니메이션*/
+#home-cover{
+	animation-delay: .1s;
+	animation-duration:.3s;
+}
+#home-heading{
+	animation-delay:.5s;
+	animation-duration:.3s;
+}
+#home-btn{
+	animation-delay:.10s;
+	animation-duration:.3s;
+}
+
+/*서비스*/
+.content-box{
+	padding:60px 0 60px 0;
+}
+.content-title h3{
+	font-size:30px;
+	font-weight:700;
+	text-align:center;
+	margin:0 0 30px 0;
+}
+.content-title-underline{
+	width:30px;
+	height:3px;
+	background-color:#34c6d3;
+	margin:0 auto 0 auto;
+}
+.service-item-icon{
+	color:#34c6d3;
+	padding:15px;
+	margin-right:25px;
+	width:75px;
+	height:75px;
+	text-align:center;
+	float:left;
+}
+/*
+.service-item{
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}*/
