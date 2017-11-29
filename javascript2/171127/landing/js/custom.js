@@ -12,10 +12,29 @@ $(function() {
 
 */
 $(function(){
-	$('.owl-carousel').owlCarousel({
+	$('#team-members').owlCarousel({
 		items:3,
+		autoplay:true,
+		smartSpeed:700,
+		loop:true,
+		autoplayHoverPause:true
 	});
 
+	$('#customers-testimonials').owlCarousel({
+		items:1,
+		autoplay:true,
+		smartSpeed:700,
+		loop:true,
+		autoplayHoverPause:true
+	});
+
+	$('#clients-list').owlCarousel({
+		items:3,
+		autoplay:true,
+		smartSpeed:700,
+		loop:true,
+		autoplayHoverPause:true
+	});
 
 	$('#work').magnificPopup({
 		delegate:'a',
@@ -36,10 +55,13 @@ $(function(){
 		});
 	});
 
+	$('.counter').counterUp({
+		delay: 10,
+		time: 1000
+	});
+
 });
 
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel();
-});
-
+//https://github.com/ciromattia/jquery.counterup
+//http://imakewebthings.com/waypoints/
 
